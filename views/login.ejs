@@ -1,0 +1,15 @@
+<%- include('components/header') %>
+
+<div class="main">
+    <div class="card login-form">
+        <form action="/login" method="POST">
+            <h1>Login</h1>
+            <input type="text" name="username" id="username"  placeholder="Enter your username">
+            <input type="password" name="password" id="password" placeholder="Enter your password">
+            <input type="submit" id="submitBtn" value="Login">
+        </form>
+    </div>
+</div>
+
+
+<%- include('components/footer')  %>
